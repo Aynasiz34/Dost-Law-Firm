@@ -6,12 +6,10 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes["icon-container"]}>
-        <NavLink to="/" end>
-          <Logo className={classes.icon} />
-          <label>DOST HUKUK</label>
-        </NavLink>
-      </div>
+      <NavLink to="/" end className={classes["icon-container"]}>
+        <Logo className={classes.icon} />
+        <label>DOST HUKUK</label>
+      </NavLink>
       <ul className={classes.list}>
         <li>
           <NavLink

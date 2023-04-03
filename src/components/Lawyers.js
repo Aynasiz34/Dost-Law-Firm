@@ -86,7 +86,7 @@ const Lawyers = () => {
           }}
           className={classes.info}
         >
-          <div>
+          <div className={classes.text}>
             <p>
               2014 Yılında ERZİNCAN ÜNİVERSİTESİ HUKUK FAKÜLTESİ'ni bitirerek
               mezun oldu. Kahramanmaraş Barosunda staj Eğitimini tamamlayıp 2015

@@ -5,6 +5,7 @@
 .container {
   display: flex;
   margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .hero {
@@ -41,4 +42,20 @@
   align-items: center;
   width: 600px;
   text-align: center;
+}
+
+.text {
+  line-height: 1.6;
+}
+
+.text ul {
+  margin-top: 12px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
 }
